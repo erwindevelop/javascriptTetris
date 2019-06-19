@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: border-box;
+}
+
+#assets
+{
+    display: none;
+}
+
+#tetris
+{
+    border: #000 solid 1px;
+    color: #000;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+#sidebar
+{
+    text-align: center;
+    width: 200px;
+}
+
+#gamearena > canvas
+{
+    border: #000 solid 2px;
+}
